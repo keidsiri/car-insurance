@@ -1,8 +1,8 @@
 # _Form Letter_
 
-#### By _**Christopher Neal** **Kate Kiatsiri**_
+#### By _**Christopher Neal** & **Kate Kiatsiri**_
 
-#### _Webpage to send a letter to the user_
+#### _Survey Website_
 
 ## Technologies Used
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-_This page practices using jQuery send a form letter to the user._
+_This page practices using jQuery forms by surveying the user about food, music, etc._
 
 ## Setup/Installation Requirements
 
