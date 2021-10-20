@@ -5,11 +5,60 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title></title>
+  <title>Survey</title>
 </head>
 <body>
   <div class="container">
-  <h1></h1>
+    <h1>Tell us a little about yourself</h1>
+    <div>
+      <form id="form-group">
+        <div class="form-group"></div>
+          <label for="name">Your name</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        
+  <div class="radio">
+    <label>
+      <input type="radio" name="foods" value="pizza" checked>
+      Pizza
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="foods" value="italian">
+      Italian
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="foods" value="asians">
+      Asians
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" name="foods" value="seafood">
+      Seafood
+    </label>
+  </div>
+  
+  <select class="form-control" id="music">
+    <option>Rock and Roll</option>
+    <option>Rap</option>
+    <option>Country</option>
+    <option>Classical</option>
+    <option>Jazz</option>
+    <option>Blues</option>
+  </select>
+
+<div class="form-group">
+  <label for="color">What is your favorite color?</label>
+  <input id="color" class="form-control" type="color">
+</div>
+<button type="submit" class="btn">Thanks for your answers!</button>
+    </form>
+    </div>
+    <div class="results"></div>
   </div>
 </body>
 </html>
