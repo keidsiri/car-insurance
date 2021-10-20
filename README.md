@@ -1,6 +1,6 @@
 # _Form Letter_
 
-#### By _**Christopher Neal** **Kate K**_
+#### By _**Christopher Neal** **Kate Kiatsiri**_
 
 #### _Webpage to send a letter to the user_
 
@@ -29,4 +29,4 @@ _None_
 
 _MIT_
 
-Copyright (c) _20 October 2021_ _Christopher Neal & Kate K_
+Copyright (c) _20 October 2021_ _Christopher Neal & Kate Kiatsiri_
