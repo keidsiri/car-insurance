@@ -1,11 +1,20 @@
 $(document).ready(function() {
-  $("form#survey").submit(function(event) {
-    event.preventDefault();
-    const name = $("#name").val();
-    const food = $("input:radio[name=foods]:checked").val();
-    const music = $("#music").val();
-    const color = $("#color").val();
+  $("form#insurance").submit(function(event) {
+    const age = parseInt($("input#age").val());
+    const gender = $("select#gender").val();
 
-    $("#results").text("Thanks for your input, " + name + " " + "I also like" + " " + food + " " + music + " " + color + "!")
+    if (age) {
+      let quote = (100 - age) * 3;
+      if (gender === 'male' && age < 26) {
+        quote += 50;
+      }
+
+      $("#rate").text(quote);
+      $("#quote").show();
+    } else {
+      alert('Please enter your age.');
+    }
+
+    event.preventDefault();
   });
 });

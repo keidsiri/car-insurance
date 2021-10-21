@@ -1,6 +1,6 @@
 # _Survey_
 
-#### By _**Christopher Neal** & **Kate Kiatsiri**_
+#### By _**Ella Tanttu ** & **Kate Kiatsiri**_
 
 #### _Survey Website_
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-_This page practices using jQuery forms by surveying the user about food, music, etc._
+_This page practices using jQuery forms by surveying the user about branching on page 53._
 
 ## Setup/Installation Requirements
 
